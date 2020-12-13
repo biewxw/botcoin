@@ -2,7 +2,7 @@
   "name": "botcoin",
   "version": "1.0.0",
   "description": "💰 a twitter bot that updates with the current cryptos prices",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,17 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/biewxw/botcoin.git"
   },
-  "author": "biewxw",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/biewxw/botcoin/issues"
   },
   "homepage": "https://github.com/biewxw/botcoin#readme",
   "dependencies": {
-    "cron": "^1.8.2",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "twitter": "^1.7.1",
-    "yql": "^1.0.2"
+    "global": "^4.4.0",
+    "typescript": "^4.1.3"
   }
 }
